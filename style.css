@@ -52,7 +52,7 @@ nav a:hover {
 .header {
   background-color: #33A2FF;
   text-align: center;
-
+  padding: 1em 0;
 }
 
 .header h1 {
