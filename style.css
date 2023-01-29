@@ -14,13 +14,16 @@ body {
   padding: 40px 20px;
 }
 
-/* Header Styles */
-
+/* Nav Styles */
 nav {
   display: flex;
   justify-content: center;
-  padding: 1em 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
   background-color: #0077c9;
+  padding: 1em 0;
+  z-index: 1;
 }
 
 nav ul {
@@ -28,8 +31,6 @@ nav ul {
   list-style: none;
   margin: 0;
   padding: 0;
-  position:fixed
-  z-index 1; /* To make sure the nav bar stays above other elements */
 }
 
 nav li {
@@ -47,6 +48,7 @@ nav a:hover {
   color: #c9c9c9;
 }
 
+/* Header Styles */
 .header {
   background-color: #33A2FF;
   text-align: center;
