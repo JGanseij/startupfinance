@@ -28,6 +28,8 @@ nav ul {
   list-style: none;
   margin: 0;
   padding: 0;
+  position:fixed
+  z-index 1; /* To make sure the nav bar stays above other elements */
 }
 
 nav li {
