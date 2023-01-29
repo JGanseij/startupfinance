@@ -36,4 +36,11 @@ h1, h2, h3 {
   padding: 50px 0;
 }
 
-.services h2
+.services h2 {
+  font-size: 32px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  color: #333;
+  margin-top: 50px;
+  }
