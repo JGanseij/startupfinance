@@ -52,11 +52,11 @@ body {
 }
 
 .service-box {
-  background-color: #FFF;
-  padding: 40px;
-  margin: 0 0 40px 0;
-  box-shadow: 0px 2px 8px 0px rgba(0,0,0,0.1);
+  width: 80%;
+  margin: 40px auto;
   text-align: center;
+  background-color: #FFF;
+  box-shadow: 0px 2px 8px 0px rgba(0,0,0,0.1);
 }
 
 .service-box h3 {
@@ -70,6 +70,7 @@ body {
   font-size: 18px;
   color: #333;
   margin: 0;
+  line-height: 1.5;
 }
 
 /* Footer Styles */
